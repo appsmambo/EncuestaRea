@@ -1,0 +1,138 @@
+body {
+	background-color:#FCE6B9;
+	color:#706f6f;
+	font-size:12px
+}
+
+.container {
+	background-color:#fff
+}
+
+header.container {
+	padding-left:0;
+	padding-right:0
+}
+footer.container {
+	background-color:#964b07;
+	height:11px
+}
+
+strong {
+	font-weight:700
+}
+
+a,
+a:hover {
+	text-decoration:none;
+	transition-property:all;
+	transition-duration:.75s;
+	transition-timing-function:linear
+}
+
+.page-header {
+	margin-top:20px
+}
+
+h1 {
+	font-size:20px;
+	margin-top:10px
+}
+
+.titulo {
+	font-size:16px
+}
+
+label.error {
+	color:red;
+	font-size:11px;
+	font-weight:400
+}
+input.error {
+	color:red
+}
+
+.br-wrapper {
+	margin:12px 0 6px
+}
+
+.br-theme-bars-movie .br-widget a.br-active:nth-child(1),
+.br-theme-bars-movie .br-widget a.br-selected:nth-child(1) {
+	background-color:#5882FA
+}
+.br-theme-bars-movie .br-widget a.br-active:nth-child(2),
+.br-theme-bars-movie .br-widget a.br-selected:nth-child(2) {
+	background-color:#2E64FE
+}
+.br-theme-bars-movie .br-widget a.br-active:nth-child(3),
+.br-theme-bars-movie .br-widget a.br-selected:nth-child(3) {
+	background-color:#0040FF
+}
+.br-theme-bars-movie .br-widget a.br-active:nth-child(4),
+.br-theme-bars-movie .br-widget a.br-selected:nth-child(4) {
+	background-color:#013ADF
+}
+.br-theme-bars-movie .br-widget a.br-active:nth-child(5),
+.br-theme-bars-movie .br-widget a.br-selected:nth-child(5) {
+	background-color:#0431B4
+}
+.br-theme-bars-movie .br-widget .br-current-rating.score1 {
+	color:#5882FA
+}
+.br-theme-bars-movie .br-widget .br-current-rating.score2 {
+	color:#2E64FE
+}
+.br-theme-bars-movie .br-widget .br-current-rating.score3 {
+	color:#0040FF
+}
+.br-theme-bars-movie .br-widget .br-current-rating.score4 {
+	color:#013ADF
+}
+.br-theme-bars-movie .br-widget .br-current-rating.score5 {
+	color:#0431B4
+}
+
+.separador {
+	border-bottom:1px solid #eee;
+	display:block;
+	margin-bottom:12px;
+	width:100%
+}
+
+@media (min-width:768px) {
+	body {
+		font-size:14px
+	}
+	.page-header {
+		margin-top:30px
+	}
+	h1 {
+		font-size:30px;
+		margin-top:20px
+	}
+	.titulo {
+		font-size:20px
+	}
+	.br-theme-bars-movie .br-widget a {
+		width:60px
+	}
+	.br-theme-bars-movie .br-widget .br-current-rating {
+		width:310px
+	}
+	.br-wrapper {
+		margin:12px 0
+	}
+	.separador {
+		margin-bottom:30px
+	}
+}
+
+@media (min-width:992px) {
+	.br-wrapper {
+		margin:22px 0 5px
+	}
+}
+
+@media (min-width:1200px) {
+
+}
+
